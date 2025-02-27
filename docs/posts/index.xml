@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts :: this new</title>
+    <title>Posts :: My New Hugo Site</title>
     <link>https://jisuobuyu.github.io/posts/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Feb 2025 01:33:33 +0800</lastBuildDate>
     <atom:link href="https://jisuobuyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://jisuobuyu.github.io/posts/my-first-post/index.html</link>
-      <pubDate>Mon, 24 Feb 2025 01:33:33 +0800</pubDate>
-      <guid>https://jisuobuyu.github.io/posts/my-first-post/index.html</guid>
-      <description></description>
-    </item>
     <item>
       <title>VirtualBox安装openEuler22.03-LTS SP4教程</title>
       <link>https://jisuobuyu.github.io/posts/virtualbox%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/index.html</link>
