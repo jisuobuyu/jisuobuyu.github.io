@@ -1,0 +1,21 @@
+# 基础规则：先忽略所有内容
+*
+
+# 强制保留 git 元数据（必须放在最前）
+!.gitignore
+!.gitmodules
+
+# 保留项目根目录的关键文件（无扩展名）
+!LICENSE
+!README.md
+
+# 保留项目根目录的文档类文件（按扩展名）
+!*.md    # 包含所有 markdown 文件
+!*.txt   # 包含所有文本文件
+
+# 保留整个 docs 目录及其内容（递归包含）
+!docs/**
+
+# 忽略 docs 目录中的临时文件（示例）
+docs/*.tmp
+docs/*.log
