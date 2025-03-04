@@ -1,0 +1,14 @@
+baseURL = 'https://jisuobuyu.github.io/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "relearn"
+
+[module]
+  # 将整个 content 目录视为资源目录，包含所有子文件夹
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  # 保留默认的 static 目录配置（可选）
+  [[module.mounts]]
+    source = "static"
+    target = "static"

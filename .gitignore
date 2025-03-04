@@ -1,0 +1,25 @@
+# 1. 首先强制保留 Git 元数据（必须最优先）
+!.git*
+!.gitmodules
+!.gitignore
+
+# 2. 保留项目根目录的关键文件
+!README.md
+!LICENSE
+!hugo.toml
+
+# 3. 保留所有文档类型（按扩展名）
+!*.md
+!*.txt
+
+archetypes/
+assets/
+content/
+data/
+i18n/
+layouts/
+public/
+static/
+themes/
+
+.hugo_build.lock

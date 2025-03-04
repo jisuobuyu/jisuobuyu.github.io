@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts :: My New Hugo Site</title>
+    <link>https://jisuobuyu.github.io/posts/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Feb 2025 01:33:33 +0800</lastBuildDate>
+    <atom:link href="https://jisuobuyu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VirtualBox安装openEuler22.03-LTS SP4教程</title>
+      <link>https://jisuobuyu.github.io/posts/virtualbox%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/index.html</link>
+      <pubDate>Mon, 24 Feb 2025 01:33:33 +0800</pubDate>
+      <guid>https://jisuobuyu.github.io/posts/virtualbox%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/index.html</guid>
+      <description>本文写于2025年2月22日20点30分。&#xA;一、安装部署 1. 安装VirtualBox 7.1.6 VirtualBox官方网站：下载地址&#xA;截至2025年2月22日，当前版本是VirtualBox 7.1.6，请根据操作系统下载适配版本，然后直接安装（按照默认步骤即可）。&#xA;2. 下载openEuler ISO openEuler22.03-LTS SP4 ISO镜像文件下载：下载地址&#xA;选择下载Offline Standard ISO 3.8G的版本，存储到本地。本人本地存储路径为（C:\SelfSoftware\VirtualBox\openEuler-22.03-LTS-SP4-x86_64-dvd.iso）。&#xA;3. 虚拟机内安装openEuler 安装系统：https://blog.csdn.net/Zhichao_Zhang/article/details/127142410&#xA;更新源：https://www.openeuler.org/zh/blog/2024-10-15-boostYum/2024-10-15-boostYum.html&#xA;二、网络配置 1. 创建虚拟网卡 打开VirtualBox，依次点击工具=&gt;网络=&gt;仅主机(Host-Only)网络=&gt;创建：会创建Host-Only网络，可以提供虚拟机与主机通信的能力。此操作会在windows系统创建一个虚拟网卡VirtualBox Host-Only Ethernet Adapter，按照如下图所示配置IP地址，并且禁用DHCP服务器。配置好以后，点击应用后，就可以在windows系统看到虚拟网卡。 依次点击工具=&gt;网络=&gt;NAT网络=&gt;创建：会创建NAT网络，可以为虚拟机提供访问外部网络的能力。或者直接使用桥接模式 2. openEuler网络配置设置 VirtualBox网卡1选择Host-Only网络</description>
+    </item>
+  </channel>
+</rss>
